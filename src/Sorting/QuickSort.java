@@ -30,6 +30,7 @@ public class QuickSort {
                 arr[e] = temp;
                 s++;
                 e--;
+
             }
         }
         quickSort(arr,low,e);
