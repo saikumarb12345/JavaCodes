@@ -2,10 +2,10 @@ package Hashing;
 import java.util.HashMap;
 public class Hashmap {
     public static void main(String[] args) {
-        //Create
+        //Create Hashmap
         HashMap<String,Integer> hm = new HashMap<>();
 
-        //Insert - O(1) --> Insert Key,Values
+        //Insert - O(1) --> Insert (Key,Values)
         hm.put("Bharath",100);
         hm.put("china",150);
         hm.put("usa",50);
@@ -13,7 +13,7 @@ public class Hashmap {
 
         System.out.println(hm);
 
-//        Get - O(1) --> Get values
+//        Get - O(1) --> Get values by using keys
 //        int population = hm.get("Bharath");
 //        System.out.println(population); // Returns 100
 //        System.out.println(hm.get("Japan")); // Returns Null if there is no key in hashmap
@@ -24,7 +24,7 @@ public class Hashmap {
 
         //Remove - O(1)
 //        System.out.println(hm.remove("china")); // Returns Value(150)
-//        System.out.println(hm.remove("Indonesia")); // Returns null if key doesn't exists
+//        System.out.println(hm.remove("Indonesia")); // Returns null if key doesn't exist
 //        System.out.println(hm);
 
         // Size

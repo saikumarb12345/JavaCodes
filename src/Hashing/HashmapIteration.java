@@ -14,14 +14,14 @@ public class HashmapIteration {
         hm.put("Indonesia",10);
         hm.put("Combodia",5);
         System.out.println(hm);
+        System.out.println(hm.get("usa"));
 
         //Iterate
         Set<String> keys = hm.keySet();
         System.out.println(keys);
 
-        for (String k : keys){
+        for (String k : keys){ //forEach Loop
             System.out.println("key="+k+", value="+hm.get(k));
         }
-
     }
 }
